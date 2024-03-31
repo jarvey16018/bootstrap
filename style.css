@@ -1,0 +1,4 @@
+.shrink-image {
+    /* Scale the image to 75% of its original size */
+    transform: scale(0.75);
+}
