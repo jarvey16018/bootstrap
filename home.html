@@ -412,6 +412,51 @@
         </div>
     </section>
 
+    <!-- get updates / modal trigger -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="text-center">
+            <h2>Stay in the Loop</h2>
+            <p class="lead">Get the latest updates as they happen...</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <p class="text-muted my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Non dolorem vitae nesciunt deleniti suscipit voluptas quia deserunt nemo ipsum totam necessitatibus, 
+                iusto quam enim porro velit? Dolore cum eius perferendis autem porro? Harum iure quae maxime, 
+                 mollitia pariatur quod, quas qui reiciendis, porro odio eaque.</p>
+                <button class="btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#reg-modal">
+                Register for Updates
+                </button>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- modal itself -->
+    <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                   <h5 class="modal-title" id="modal-title">Get the Latest Updates</h5> 
+                   <button type="button" class="btn-close" data-bs-dismiss="modal" 
+                   aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ullam? Asperiores ab maxime amet 
+                    dolorem vero eum enim ut laborum suscipit, iste nisi animi tempore magnam quis modi itaque dicta 
+                    repellat. Molestiae quae aliquam ab commodi? Quam quo dignissimos omnis?</p>
+                    <label for="modal-email" class="form-label">Your email address:</label>
+                    <input type="email" class="form-control" id="modal-email" placeholder="e.g. mario@example.com">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 <script>
     const tooltips = document.querySelectorAll('.tt')
     tooltips.forEach(t => {
